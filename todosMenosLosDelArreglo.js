@@ -4,13 +4,18 @@ let otro = ["Mallard", "Hook Bill", "African", "Crested",
 ];
 let arrefinal = [];
 
-function quitaLosDegeese(arre) {
-
-   for(let i=0;i<geese.length-1;i++){
-       geese[i].includes
-   }
 
 
-}
+   for(let i = 0 ;i < geese.length-1;i++){
+       let geese = geese[i]
+       if(otro.includes(geese)){
+           arrefinal.push(geese)
 
-console.log(quitaLosDegesse)
+        console.log(arrefinal)
+       }
+      
+    }
+
+
+
+
