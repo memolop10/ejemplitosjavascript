@@ -11,7 +11,7 @@ function addOrChangeUrlParameter(url, keyValue) {
     } else {
         // si sí tiene
         let key = keyValue.split('=')[0]
-        if (url.includes('?'+key+'=') || url.includes('&'+key+'=') ) {
+        if (url.includes('?'+key+'=') || url.includes('&'+key+'=')) {
             // si sí está, remplazo
             let domain = url.split('?')[0] // 'www.example.com'
             let params = url.split('?')[1] // 'a=1&b=2&c=3'
@@ -24,7 +24,7 @@ function addOrChangeUrlParameter(url, keyValue) {
                 } else {
                     nuevosParams.push(param)
                 }
-                cl(nuevosParams)
+               // cl(nuevosParams)
             })
             return domain + '?' + nuevosParams.join('&')
         } else {
