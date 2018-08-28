@@ -1,0 +1,23 @@
+#conteiner{
+    border: 1px red solid;
+    height: 90vh;
+    margin-top: 5px;
+    
+}
+
+#formulario{
+    display: block;
+    border: 1px blue solid;
+    height: 467px;
+    width: 637px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+#trasero{
+    border: 1px rosybrown solid;
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+}
