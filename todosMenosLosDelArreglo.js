@@ -1,6 +1,6 @@
 let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 let otro = ["Mallard", "Hook Bill", "African", "Crested",
-    "Pilgrim", "Toulouse", "Blue Swedish"];
+    "Pilgrim", "Toulouse", "Blue Swedish","Roman Tufted"];
 
     
     function quitaLosDeAquiNo (arr) {

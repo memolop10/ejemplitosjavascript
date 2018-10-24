@@ -1,6 +1,6 @@
 
 
-//let num1=prompt(num1);
+//elt num1=prompt(num1);
 //let num2=prompt(num2);
 function suma(num1, num2){
     var num1 =num1;
