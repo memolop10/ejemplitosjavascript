@@ -8,9 +8,9 @@ let automovil ={
 }
 
 
-// for(info of Object.values(automovil)){
-//     console.log(info)
-// }
+for(key of Object.values(automovil)){
+    console.log(key)
+}
 
 
 Object.values(automovil).forEach(element => {

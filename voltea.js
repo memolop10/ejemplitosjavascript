@@ -6,7 +6,9 @@ function volteaConComas(frase) {
     let aux;
 
     for (let i = 0; i < resultado.length/2; i++) {
+      console.log(resultado)
       aux=resultado[i];
+      
       resultado[i]=resultado[(resultado.length-1)-i];
       resultado[(resultado.length-1)-i]=aux;
         
